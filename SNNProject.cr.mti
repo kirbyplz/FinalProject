@@ -1,0 +1,88 @@
+{C:/Users/betag/Desktop/Spring 2018/ECE 551/FinalProject/FinalProject/uart_rx.sv} {1 {vlog -work work -sv -stats=none {C:/Users/betag/Desktop/Spring 2018/ECE 551/FinalProject/FinalProject/uart_rx.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module uart_rx1
+-- Compiling module fsm
+-- Compiling module shifter
+-- Compiling module baud
+-- Compiling module shift_count
+
+Top level modules:
+	uart_rx1
+
+} {} {}} {C:/Users/betag/Desktop/Spring 2018/ECE 551/FinalProject/FinalProject/MAC.sv} {1 {vlog -work work -sv -stats=none {C:/Users/betag/Desktop/Spring 2018/ECE 551/FinalProject/FinalProject/MAC.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module mac
+-- Compiling module Flop1
+-- Compiling module Flop2
+
+Top level modules:
+	mac
+
+} {} {}} {C:/Users/betag/Desktop/Spring 2018/ECE 551/FinalProject/FinalProject/uart_rx_tb.sv} {1 {vlog -work work -sv -stats=none {C:/Users/betag/Desktop/Spring 2018/ECE 551/FinalProject/FinalProject/uart_rx_tb.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module uart_rx_tb
+
+Top level modules:
+	uart_rx_tb
+
+} {} {}} {C:/Users/betag/Desktop/Spring 2018/ECE 551/FinalProject/FinalProject/rom.sv} {0 {vlog -work work -sv -stats=none {C:/Users/betag/Desktop/Spring 2018/ECE 551/FinalProject/FinalProject/rom.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module rom
+** Error: C:/Users/betag/Desktop/Spring 2018/ECE 551/FinalProject/FinalProject/rom.sv(2): (vlog-2730) Undefined variable: 'ADDR_WIDTH'.
+
+** Error (suppressible): C:/Users/betag/Desktop/Spring 2018/ECE 551/FinalProject/FinalProject/rom.sv(2): (vlog-2388) 'addr' already declared in this scope (rom).
+
+** Error: C:/Users/betag/Desktop/Spring 2018/ECE 551/FinalProject/FinalProject/rom.sv(4): (vlog-2730) Undefined variable: 'DATA_WIDTH'.
+
+** Error (suppressible): C:/Users/betag/Desktop/Spring 2018/ECE 551/FinalProject/FinalProject/rom.sv(4): (vlog-2388) 'q' already declared in this scope (rom).
+
+** Error: C:/Users/betag/Desktop/Spring 2018/ECE 551/FinalProject/FinalProject/rom.sv(2): Identifier must be declared with a port mode: addr.
+** Error: C:/Users/betag/Desktop/Spring 2018/ECE 551/FinalProject/FinalProject/rom.sv(4): Identifier must be declared with a port mode: q.
+
+} {4.0 5.0 8.0 9.0 12.0 14.0} {}} {C:/Users/betag/Desktop/Spring 2018/ECE 551/FinalProject/FinalProject/mac_tb.sv} {1 {vlog -work work -sv -stats=none {C:/Users/betag/Desktop/Spring 2018/ECE 551/FinalProject/FinalProject/mac_tb.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module mac_tb
+
+Top level modules:
+	mac_tb
+
+} {} {}} {C:/Users/betag/Desktop/Spring 2018/ECE 551/FinalProject/FinalProject/uart_tx.sv} {1 {vlog -work work -sv -stats=none {C:/Users/betag/Desktop/Spring 2018/ECE 551/FinalProject/FinalProject/uart_tx.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module uart_tx1
+-- Compiling module fsm1
+-- Compiling module shifter1
+-- Compiling module baud1
+-- Compiling module shift_count1
+
+Top level modules:
+	uart_tx1
+
+} {} {}} {C:/Users/betag/Desktop/Spring 2018/ECE 551/FinalProject/FinalProject/snn_core.sv} {1 {vlog -work work -sv -stats=none {C:/Users/betag/Desktop/Spring 2018/ECE 551/FinalProject/FinalProject/snn_core.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module snn_core
+
+Top level modules:
+	snn_core
+
+} {} {}} {C:/Users/betag/Desktop/Spring 2018/ECE 551/FinalProject/FinalProject/ram.sv} {0 {vlog -work work -sv -stats=none {C:/Users/betag/Desktop/Spring 2018/ECE 551/FinalProject/FinalProject/ram.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ram
+** Error: C:/Users/betag/Desktop/Spring 2018/ECE 551/FinalProject/FinalProject/ram.sv(2): (vlog-2730) Undefined variable: 'DATA_WIDTH'.
+
+** Error (suppressible): C:/Users/betag/Desktop/Spring 2018/ECE 551/FinalProject/FinalProject/ram.sv(2): (vlog-2388) 'data' already declared in this scope (ram).
+
+** Error: C:/Users/betag/Desktop/Spring 2018/ECE 551/FinalProject/FinalProject/ram.sv(3): (vlog-2730) Undefined variable: 'ADDR_WIDTH'.
+
+** Error (suppressible): C:/Users/betag/Desktop/Spring 2018/ECE 551/FinalProject/FinalProject/ram.sv(3): (vlog-2388) 'addr' already declared in this scope (ram).
+
+** Error: C:/Users/betag/Desktop/Spring 2018/ECE 551/FinalProject/FinalProject/ram.sv(2): Identifier must be declared with a port mode: data.
+** Error: C:/Users/betag/Desktop/Spring 2018/ECE 551/FinalProject/FinalProject/ram.sv(3): Identifier must be declared with a port mode: addr.
+
+} {4.0 5.0 8.0 9.0 12.0 14.0} {}} {C:/Users/betag/Desktop/Spring 2018/ECE 551/FinalProject/FinalProject/uart_tx_tb.sv} {1 {vlog -work work -sv -stats=none {C:/Users/betag/Desktop/Spring 2018/ECE 551/FinalProject/FinalProject/uart_tx_tb.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module uart_tx_tb
+
+Top level modules:
+	uart_tx_tb
+
+} {} {}}
