@@ -4,16 +4,19 @@ module snn_core(rst_n,clk, start, q_input, addr_input_unit, done, digit);
 	output logic done;
 	output logic [9:0] addr_input_unit;
 	logic [7:0] mac_a_mux, mac_b_mux;
+
 	logic [8:0] hidden_count;
 	logic [6:0] output_count;
 	logic [8:0] hidden_nxt_count;
 	logic [6:0] output_count;
 	logic hidden_has_input, output_has_input;
 	logic weight_read;
+
 	
 	assign mac_a_mux =
 	
 	module mac(.rst_n(rst_n),.clk(clk),.a(mac_a_mux),.b(mac_b_mux),.clr_n(mac_clr),.acc(mac_output);
+
 	
 	module controlfsm;
 	// States
