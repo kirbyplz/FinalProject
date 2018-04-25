@@ -254,6 +254,8 @@ for(int i = 0; i < 10; i++) begin
 	#10;
     	for(int i = 0; i < 783; i++) begin
 		q_input = input_data[i];
+		//Add delay here
+		
    	 end
 
 	while (!done) begin
